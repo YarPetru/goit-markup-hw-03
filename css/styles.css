@@ -1,0 +1,224 @@
+:root {
+  --text-font: "Roboto", sans-serif;
+  --main-text-color: #757575;
+  --titles-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --light-background: #f5f4fa;
+  --dark-background: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+/* цвет основного текста #212121 */
+/* вторичный текст #757575 */
+/* фон #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2F303A */
+/* белый #FFFFFF */
+
+body {
+  font-family: var(--text-font);
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background: var(--white-color);
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* ======= HEADER ========== */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--black-color);
+}
+
+.logo-white {
+  color: var(--white-color);
+}
+
+.nav-list-link,
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--titles-text-color);
+}
+.color-contacts {
+  color: var(--main-text-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contacts-header .contacts-link:hover,
+.contacts-header .contacts-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* ========= END HEADER ========== */
+
+/* ========= HERO =========== */
+
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* ========= END HERO ======== */
+
+/* ========= FEATURES ======== */
+.feature-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+
+  color: var(--titles-text-color);
+}
+
+.feature-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+}
+/* ========= END FEATURES ======== */
+
+/* ========= SERVISES ======== */
+
+/* ========= END SERVISES  ======== */
+
+/* ========= ABOUT TEAM ======== */
+.team {
+  background: var(--light-background);
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  /* text-align: center; */
+
+  color: var(--titles-text-color);
+}
+
+.member-position {
+  font-size: 16px;
+  line-height: 1.188;
+  /* text-align: center; */
+}
+
+/* .member-photo {} */
+
+/* ========= END ABOUT TEAM ======== */
+
+/* ========= FOOTER CONTACTS ======== */
+.footer {
+  background: var(--dark-background);
+}
+
+.footer-contact-link {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  color: var(--footer-link-color);
+  font-style: normal;
+}
+/* .link {
+} */
+
+/* ========= END FOOTER CONTACTS ======== */
+
+/* PORTFOLIO */
+
+/* ======== PROJECTS =========*/
+.example-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titles-text-color);
+}
+.example-sort {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+/* ======== END PROJECTS =========*/
+
+/* ========= OTHERS ======== */
+
+.sub-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+
+  color: var(--titles-text-color);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--titles-text-color);
+  background: var(--light-background);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
