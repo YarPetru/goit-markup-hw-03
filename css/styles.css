@@ -9,7 +9,13 @@
   --dark-background: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
-
+.description {
+  width: 200px;
+  height: 300px;
+  border: 10px solid tomato;
+  margin: 20px;
+  /* box-sizing: border-box; */
+}
 /* цвет основного текста #212121 */
 /* вторичный текст #757575 */
 /* фон #FFFFFF */
@@ -17,6 +23,33 @@
 /* вторичный цвет фона #2F303A */
 /* белый #FFFFFF */
 
+/* СБРОС */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* =========== */
 body {
   font-family: var(--text-font);
   color: var(--main-text-color);
