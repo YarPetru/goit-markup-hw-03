@@ -9,13 +9,7 @@
   --dark-background: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
-.description {
-  width: 200px;
-  height: 300px;
-  border: 10px solid tomato;
-  margin: 20px;
-  /* box-sizing: border-box; */
-}
+
 /* цвет основного текста #212121 */
 /* вторичный текст #757575 */
 /* фон #FFFFFF */
@@ -23,8 +17,8 @@
 /* вторичный цвет фона #2F303A */
 /* белый #FFFFFF */
 
-/* СБРОС */
-h1,
+/* =========СБРОС========== */
+/* h1,
 h2,
 h3,
 h4,
@@ -48,20 +42,21 @@ img {
 }
 .link {
   text-decoration: none;
-}
-/* =========== */
-body {
-  font-family: var(--text-font);
-  color: var(--main-text-color);
-  letter-spacing: 0.03em;
-  background: var(--white-color);
-}
+} */
 
 ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
+}
+/* =========КОНЕЦ СБРОСА======== */
+
+body {
+  font-family: var(--text-font);
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background: var(--white-color);
 }
 
 /* ======= HEADER ========== */
@@ -107,7 +102,7 @@ a {
 /* ========= HERO =========== */
 
 .hero {
-  background: #2f303a;
+  background: var(--dark-background);
 }
 .hero-title {
   font-weight: 900;
@@ -184,6 +179,12 @@ a {
   background: var(--dark-background);
 }
 
+.footer-address-link {
+  font-size: 14px;
+  line-height: 1.714px;
+  color: var(--white-color);
+}
+
 .footer-contact-link {
   font-size: 14px;
   line-height: 1.714;
@@ -200,6 +201,10 @@ a {
 /* PORTFOLIO */
 
 /* ======== PROJECTS =========*/
+.example-link {
+  color: inherit;
+}
+
 .example-name {
   font-weight: 700;
   font-size: 18px;
@@ -226,6 +231,8 @@ a {
 }
 
 .btn {
+  cursor: pointer;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
