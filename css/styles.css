@@ -377,9 +377,6 @@ body {
   justify-content: space-between;
   /* margin: -15px; */
 }
-/* .example:not(:nth-child(3n)) {
-  margin-right: 30px;
-} */
 
 .example:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
