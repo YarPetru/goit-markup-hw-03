@@ -68,7 +68,6 @@ body {
 }
 
 .header {
-  min-height: 80px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -146,8 +145,8 @@ body {
 
 .hero {
   padding-top: 200px;
+  padding-bottom: 200px;
   background: var(--dark-background);
-  height: 600px;
 }
 
 .hero-title {
@@ -304,15 +303,22 @@ body {
 }
 .footer-address {
   margin-top: 20px;
-}
 
-.footer-address-link {
   font-size: 14px;
   line-height: 1.714px;
   color: var(--white-color);
 }
+
+/* .footer-address-link {
+  font-size: 14px;
+  line-height: 1.714px;
+  color: var(--white-color);
+} */
+.footer-contact-list {
+  margin-top: 9px;
+}
+
 .footer-contact-item {
-  margin-top: 10px;
 }
 .footer-contact-link {
   display: inline-block;
