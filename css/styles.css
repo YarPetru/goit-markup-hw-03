@@ -314,11 +314,13 @@ body {
   line-height: 1.714px;
   color: var(--white-color);
 } */
+
 .footer-contact-list {
   margin-top: 9px;
 }
 
-.footer-contact-item {
+.footer-contact-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-contact-link {
   display: inline-block;
