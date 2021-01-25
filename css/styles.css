@@ -38,6 +38,10 @@ img {
   display: block;
 }
 
+a {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -149,8 +153,11 @@ body {
   background: var(--dark-background);
 }
 
+.hero .container {
+  width: 696px;
+}
+
 .hero-title {
-  max-width: 700px;
   margin: 0 auto;
 
   font-weight: 900;
@@ -199,7 +206,6 @@ body {
 
 .features-list-item {
   max-width: 270px;
-  min-height: 101px;
 }
 
 .feature-name {
@@ -315,7 +321,7 @@ body {
   color: var(--white-color);
 } */
 
-.footer-contact-list {
+.address {
   margin-top: 9px;
 }
 
@@ -399,7 +405,7 @@ body {
 } */
 
 .example {
-  border: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
   width: 370px;
   /* text-align: center; */
   /* margin-bottom: 30px; */
