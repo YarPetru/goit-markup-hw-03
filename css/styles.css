@@ -303,11 +303,9 @@ body {
 }
 .footer-address {
   margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 
   font-size: 14px;
-  line-height: 1.714px;
+  line-height: 1.714;
   color: var(--white-color);
 }
 
