@@ -390,6 +390,7 @@ body {
 }
 
 .example-description {
+  /* width: 370px; */
   padding: 20px 24px;
 }
 
@@ -406,7 +407,6 @@ body {
 
 .example {
   outline: 1px solid #eeeeee;
-  width: 370px;
   /* text-align: center; */
   /* margin-bottom: 30px; */
   margin: 15px;
